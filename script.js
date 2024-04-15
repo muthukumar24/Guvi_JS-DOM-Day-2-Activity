@@ -15,7 +15,7 @@ function openNewWindow() {
       } else {
         appendAlert("No window is currently open!!", "danger");
       }
-    }, 10000);
+    }, 20000);
   } else {
     appendAlert("Please enter a URL!!", "danger");
   }
